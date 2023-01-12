@@ -1,0 +1,73 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
+
+html body{
+    padding: 0;
+    margin: 0;
+}
+
+.space{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70px;
+}
+section{
+   max-width:400px;
+    min-height: 400px;
+    max-height: 5000px;
+    border: 2px solid white;
+    margin: auto;
+    background-color: black;
+    border-radius: 15px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: lawngreen;
+}
+#text{
+    width: 90%;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid lawngreen;
+    background-color: black;
+    align-self: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    
+}
+table{
+    height: 30px;
+    width: 100%;
+}
+td{ display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    border: 1px solid lawngreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+#taskadd{
+    height: 40px;
+    width: 100px;
+    color: black;
+    background-color: lawngreen;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: grab;
+}
+hr{
+   background-color: lawngreen;
+}
+#clear{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 12px;
+    margin: 5px;
+}
